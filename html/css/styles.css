@@ -1,0 +1,127 @@
+
+
+.container {
+    background-color:#e1eae7;
+}
+#vis {
+	background-color: #FFF9AA;
+	position: relative;
+}
+
+#vis-descr {
+	position: absolute;
+	width: 600px;
+	height: 100%;
+	background-color: #222;
+	left: 0;
+}
+
+#menu {
+	float: right;
+	padding-top: 20px;
+}
+
+#menu li {
+	display: inline-block;
+	border-radius: 10px;
+}
+
+#menu li a {
+	line-height: 50px;
+	padding: 0 20px;
+	font-size: 16px;
+	color: #444444
+}
+
+#menu .menu-item {
+	transition: 0.2s ease-in-out;
+}
+
+#menu .menu-item:hover {
+	background-color: #fcd017;
+}
+
+#menu .menu-item:hover a {
+	color: white;
+	text-decoration: none;
+}
+
+#shit {
+	background-color: #ffae19;
+}
+
+#shit:hover a {
+	text-decoration: none;
+}
+
+#footer h2 {
+	color: #fdd017;
+}
+
+#footer {
+	background-color: #545454;
+}
+
+#full-footer {
+	background-color: #343434;
+	color: white;
+}
+
+#full-footer a {
+	color: white;
+}
+
+#footer a {
+	color: #cccccc;
+}
+
+#footer .program-info img {
+	padding-top: 20px;
+	height: 50px;
+	border-radius: 5px	;
+}
+
+#footer ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+#footer li {
+	margin-bottom: 7px;
+	margin-right: 5px;
+}
+
+.post-social ul li {
+	display: inline;
+}
+
+.post-social i {
+	border-radius: 6px;
+	display: block !important;
+	font-size: 18px;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	width: 45px;
+	color: white;
+}
+
+.post-social i.fa-facebook {
+	background: none repeat scroll 0 0 #6767ed;
+}
+
+.post-social i.fa-linkedin {
+	background: none repeat scroll 0 0 #7cb6f7;
+}
+
+.post-social i.fa-google-plus {
+	background: none repeat scroll 0 0 #ed6d46;
+}
+
+.post-social i.fa-twitter {
+	background: none repeat scroll 0 0 #4b6e98;
+}
+
+.post-social i.fa-github {
+	background: none repeat scroll 0 0 #222222;
+}
