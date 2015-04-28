@@ -1,8 +1,8 @@
 var supportedCountries = ["Germany", "Italy", "Greece", "Bulgaria", "Switzerland", "Hungary"];
 
-var width = $("#vis").width(), height = 850, centered;
+var width = $("#vis").width(), height = 650, centered;
 
-var projection = d3.geo.mercator().center([-2, 50]).scale(800);
+var projection = d3.geo.mercator().center([28, 45]).scale(700);
 var path = d3.geo.path().projection(projection);
 
 var svg = d3.select("#vis")
@@ -14,7 +14,7 @@ d3.json("res/europe.geojson", function(json) {
 	svg.append("svg:g").attr("class", "tracts")
 		.selectAll("path").data(json.features)
 		.enter().append("svg:path").attr("d", path)
-		.attr("fill-opacity", 0.5)
+		.attr("fill-opacity", 1)
 		.attr("fill", generateFill)
 		.attr("stroke", "#222")
 		.on("click", zoomIn)
@@ -22,9 +22,9 @@ d3.json("res/europe.geojson", function(json) {
 
 function generateFill(d3Obj) {
 	if(isCountrySupported(d3Obj)) {
-		return "#111";
+		return "#44c0e4";
 	}
-	return "#85C3C0";
+	return "lightgray";
 }
 
 function zoomIn(d3Obj) {
