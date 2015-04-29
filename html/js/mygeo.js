@@ -18,6 +18,16 @@ d3.json("res/europe.geojson", function(json) {
 		.attr("fill", generateFill)
 		.attr("stroke", "#222")
 		.on("click", zoomIn)
+		.on("mouseover", function(d3Obj) {
+			if(isCountrySupported(d3Obj)) {
+				d3.select(this).style("fill", "#fff200");
+			}
+		})
+		.on("mouseout", function(d3Obj) {
+			if(isCountrySupported(d3Obj)) {
+				d3.select(this).style("fill", "#44c0e4");
+			}
+		})
 });
 
 function generateFill(d3Obj) {
