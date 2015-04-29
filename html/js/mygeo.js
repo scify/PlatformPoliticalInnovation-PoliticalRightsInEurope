@@ -29,14 +29,13 @@ function generateFill(d3Obj) {
 
 function zoomIn(d3Obj) {
 
-    $("#map").addClass("activated");
-
 	if(!isCountrySupported(d3Obj)) {
 		return;
 	}
 
+    $("#map").addClass("activated");
     var countryName = d3Obj.properties["NAME"];
-     $("#countries-info").find(".country").hide();
+    $("#countries-info").find(".country").hide();
     $("#"+countryName).fadeIn();
 
 	// var x, y, k;
