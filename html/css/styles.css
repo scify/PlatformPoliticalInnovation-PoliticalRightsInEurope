@@ -240,16 +240,44 @@ body {
 
 
 /* <editor-fold descr="map"> */
+#map
+{
+    position:relative;
+    overflow: hidden;
+    height:650px;
+    width:100%
+}
+
+#map.activated #vis
+{
+    margin-left:-280px;
+    -webkit-transition:all 1s ease .25s;
+    -moz-transition:all 1s ease .25s;
+    transition:all 1s ease .25s;
+}
+
+#map.activated #countries-info
+{
+    padding:10px;
+    background-color:gray;
+    right:0;
+    -webkit-transition:all 1.75s ease-in;
+    -moz-transition:all 1.75s ease-in;
+    transition:all 1.75s ease-in;
+}
+
 #vis {
 	background-color: white;
-	position: relative;
+
 }
-#vis-descr {
+#countries-info {
 
 	position: absolute;
-	width: 300px;
+    right:-600px;
+	width: 600px;
 	height: 100%;
 	background-color: #222;
-	right: 0;
+    overflow-y: scroll;
+
 }
 /* </editor-fold> */

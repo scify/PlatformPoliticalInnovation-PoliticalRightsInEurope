@@ -2,7 +2,7 @@ var supportedCountries = ["Germany", "Italy", "Greece", "Bulgaria", "Switzerland
 
 var width = $("#vis").width(), height = 650, centered;
 
-var projection = d3.geo.mercator().center([28, 45]).scale(700);
+var projection = d3.geo.mercator().center([13, 52]).scale(700);
 var path = d3.geo.path().projection(projection);
 
 var svg = d3.select("#vis")
@@ -28,31 +28,39 @@ function generateFill(d3Obj) {
 }
 
 function zoomIn(d3Obj) {
+
+    $("#map").addClass("activated");
+
 	if(!isCountrySupported(d3Obj)) {
 		return;
 	}
-	var x, y, k;
 
-	if (d3Obj && centered !== d3Obj) {
-		var centroid = path.centroid(d3Obj);
-		x = centroid[0];
-		y = centroid[1];
-		k = 2;
-		centered = d3Obj;
-	} else {
-		x = width / 2;
-		y = height / 2;
-		k = 1;
-		centered = null;
-	}
+    var countryName = d3Obj.properties["NAME"];
+     $("#countries-info").find(".country").hide();
+    $("#"+countryName).fadeIn();
 
-	svg.selectAll("path")
-		.classed("active", centered && function(d3Obj) { return d3Obj === centered; });
+	// var x, y, k;
 
-	svg.transition()
-		.duration(750)
-		.attr("transform", "translate(" + width / 2 + "," + height / 2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
-		.style("stroke-width", 1.5 / k + "px");
+	//if (d3Obj && centered !== d3Obj) {
+	//	var centroid = path.centroid(d3Obj);
+	//	x = centroid[0];
+	//	y = centroid[1];
+	//	k = 2;
+	//	centered = d3Obj;
+	//} else {
+	//	x = width / 2;
+	//	y = height / 2;
+	//	k = 1;
+	//	centered = null;
+	//}
+    //
+	//svg.selectAll("path")
+	//	.classed("active", centered && function(d3Obj) { return d3Obj === centered; });
+    //
+	//svg.transition()
+	//	.duration(750)
+	//	.attr("transform", "translate(" + width / 2 + "," + height / 2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
+	//	.style("stroke-width", 1.5 / k + "px");
 	
 }
 
