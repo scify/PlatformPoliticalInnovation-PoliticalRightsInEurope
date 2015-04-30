@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6589a06a-f725-4cd9-87bf-c7706fee118e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/index.html" afterPath="$PROJECT_DIR$/html/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/css/styles.css" afterPath="$PROJECT_DIR$/html/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="politicalRights.iws" />
@@ -41,24 +41,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2706" max-vertical-offset="3636">
-              <caret line="296" column="0" selection-start-line="296" selection-start-column="0" selection-end-line="296" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.33225283" vertical-offset="2063" max-vertical-offset="5148">
+              <caret line="169" column="27" selection-start-line="169" selection-start-column="27" selection-end-line="169" selection-end-column="27" />
               <folding>
                 <element signature="e#1489#1521#0" expanded="false" />
-                <element signature="e#2082#2116#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32125205" vertical-offset="10695" max-vertical-offset="12438">
-              <caret line="605" column="34" selection-start-line="605" selection-start-column="34" selection-end-line="605" selection-end-column="34" />
+            <state vertical-scroll-proportion="-9.222222" vertical-offset="10695" max-vertical-offset="12438">
+              <caret line="608" column="14" selection-start-line="608" selection-start-column="14" selection-end-line="608" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#a#0;n#li#5;n#ul#0;n#nav#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -81,9 +80,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/html/css/styles.css" />
         <option value="$PROJECT_DIR$/html/js/mygeo.js" />
         <option value="$PROJECT_DIR$/html/index.html" />
+        <option value="$PROJECT_DIR$/html/css/styles.css" />
       </list>
     </option>
   </component>
@@ -331,7 +330,6 @@
           <caret line="241" column="26" selection-start-line="241" selection-start-column="26" selection-end-line="241" selection-end-column="26" />
           <folding>
             <element signature="e#1489#1521#0" expanded="false" />
-            <element signature="e#2082#2116#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -362,7 +360,6 @@
           <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
           <folding>
             <element signature="e#1489#1521#0" expanded="false" />
-            <element signature="e#2082#2116#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -394,7 +391,6 @@
           <caret line="260" column="17" selection-start-line="260" selection-start-column="17" selection-end-line="260" selection-end-column="17" />
           <folding>
             <element signature="e#1489#1521#0" expanded="false" />
-            <element signature="e#2082#2116#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -425,17 +421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2706" max-vertical-offset="3636">
-          <caret line="296" column="0" selection-start-line="296" selection-start-column="0" selection-end-line="296" selection-end-column="0" />
-          <folding>
-            <element signature="e#1489#1521#0" expanded="false" />
-            <element signature="e#2082#2116#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/js/mygeo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="11.233334" vertical-offset="3019" max-vertical-offset="3636">
@@ -449,10 +434,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32125205" vertical-offset="10695" max-vertical-offset="12438">
-          <caret line="605" column="34" selection-start-line="605" selection-start-column="34" selection-end-line="605" selection-end-column="34" />
+        <state vertical-scroll-proportion="-9.222222" vertical-offset="10695" max-vertical-offset="12438">
+          <caret line="608" column="14" selection-start-line="608" selection-start-column="14" selection-end-line="608" selection-end-column="14" />
           <folding>
             <element signature="n#style#0;n#span#0;n#a#0;n#li#5;n#ul#0;n#nav#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33225283" vertical-offset="2063" max-vertical-offset="5148">
+          <caret line="169" column="27" selection-start-line="169" selection-start-column="27" selection-end-line="169" selection-end-column="27" />
+          <folding>
+            <element signature="e#1489#1521#0" expanded="false" />
           </folding>
         </state>
       </provider>
