@@ -20,7 +20,9 @@ d3.json("res/europe.geojson", function(json) {
 		.on("click", zoomIn)
 		.on("mouseover", function(d3Obj) {
 			if(isCountrySupported(d3Obj)) {
-				d3.select(this).style("fill", "#fff200");
+				d3.select(this)
+                    .style("fill", "#fff200")
+                    .style("cursor","pointer");
 			}
 		})
 		.on("mouseout", function(d3Obj) {
@@ -43,7 +45,7 @@ function zoomIn(d3Obj) {
 		return;
 	}
 
-    $("#map").addClass("activated");
+    $("g").addClass("activated");
     var countryName = d3Obj.properties["NAME"];
     $("#countries-info").find(".country").hide();
     $("#"+countryName).fadeIn();
