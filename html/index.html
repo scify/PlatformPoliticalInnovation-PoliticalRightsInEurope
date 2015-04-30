@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+
 </head>
 <body>
 <section id="header">
@@ -151,7 +152,7 @@
             <div class="col-lg-12">
                 <div id="map" class="test" >
                     <div id="countries-info">
-                        <div id="Germany" class="country">
+                        <div id="DE" class="country">
 							<h2>Γερμανία</h2>
 							<ul>
 								<li>
@@ -194,7 +195,7 @@
 								</li>
 							</ul>
                         </div>
-                        <div id="Switzerland" class="country">
+                        <div id="CH" class="country">
 							<h2>Ελβετία</h2>
 							<ul>
 								<li>
@@ -288,7 +289,7 @@
 								</li>
 							</ul>
                         </div>
-                        <div id="Bulgaria" class="country">
+                        <div id="BG" class="country">
 							<h2>Βουλγαρία</h2>
 							<ul>
 								<li>Άρθρο 42: Δικαίωμα για τους πολίτες άνω των 18 ετών να εκλέγουν εκπροσώπους για τις κρατικές και τοπικές αρχές καθώς και να συμμετέχουν σε δημοψηφίσματα.</li>
@@ -300,7 +301,7 @@
 								<li>Άρθρο 110: Δικαίωμα του εκλέγεσθαι στο Συμβούλιο των Υπουργών, για κάθε Βούλγαρο πολίτη που μπορεί να ψηφίζει στις βουλευτικές εκλογές.</li>
 							</ul>
                         </div>
-                        <div id="Hungary" class="country">
+                        <div id="HU" class="country">
 							<h2>Ουγγαρία</h2>
 							<ul>
 								<li>Άρθρο VIII: Όλοι έχουν το δικαίωμα να δημιουργούν και να συμμετέχουν σε οργανώσεις.</li>
@@ -314,7 +315,7 @@
 								<li>Άρθρο 10: Κάθε Ούγγρος πολίτης άνω των 35 μπορεί να εκλεχθεί ως Πρόεδρος της Δημοκρατίας.</li>
 							</ul>
                         </div>
-                        <div id="Italy" class="country">
+                        <div id="IT" class="country">
 							<h2>Ιταλία</h2>
 							<ul>
 								<li>Άρθρο 18: Οι πολίτες έχουν το δικαίωμα να δημιουργούν ελεύθερα ενώσεις και χωρίς προηγούμενη άδεια από τις αρχές εκτός για τους σκοπούς που απαγορεύεται από το νόμο.</li>
@@ -331,7 +332,7 @@
 								<li>Αλλαγή του Συντάγματος: άρθρο 138 (με υπογραφές από 50.0000 ψηφοφόρους)</li>
 							</ul>
                         </div>
-                        <div id="Greece" class="country">
+                        <div id="GR" class="country">
 							<h2>Ελλάδα</h2>
 							<ul>
 								<li>Άρθρο 5 παράγ. 1: Αναφορά στο γενικό δικαίωμα συμμετοχής στην πολιτική ζωή της χώρας.</li>
@@ -346,7 +347,7 @@
 							</ul>
                         </div>
                     </div>
-                    <div id="vis"></div>
+                    <div id="vis" ></div>
                 </div>
             </div>
         </div>
@@ -543,10 +544,30 @@
         </div>
     </div>
 </footer>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
 <script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/d3.min.js"></script>
+<!--<script src="js/d3.min.js"></script>-->
+<script src="http://code.highcharts.com/maps/highmaps.js"></script>
+<script src="http://code.highcharts.com/mapdata/custom/europe.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/mygeo.js"></script>
+
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = 'politicalrights';

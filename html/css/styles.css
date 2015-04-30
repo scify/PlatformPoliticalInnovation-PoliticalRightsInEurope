@@ -244,13 +244,12 @@ body {
 {
     position:relative;
     overflow: hidden;
-    height:650px;
     width:100%
 }
 
 #map.activated #vis
 {
-    margin-left:-280px;
+    margin-left:-300px;
     -webkit-transition:all 1s ease .25s;
     -moz-transition:all 1s ease .25s;
     transition:all 1s ease .25s;
@@ -258,26 +257,28 @@ body {
 
 #map.activated #countries-info
 {
-    padding:10px;
-    background-color:gray;
     right:0;
-    -webkit-transition:all 1.75s ease-in;
-    -moz-transition:all 1.75s ease-in;
-    transition:all 1.75s ease-in;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    transition:all 1s ease;
+}
+#map,#vis,#countries-info
+{
+    height:750px;
 }
 
 #vis {
 	background-color: white;
-
 }
 #countries-info {
-
+    font-size:14px;
+    background-color:white;
+    padding:10px;
 	position: absolute;
     right:-600px;
 	width: 600px;
-	height: 100%;
-	background-color: #222;
     overflow-y: scroll;
+    z-index: 10;
 
 }
 /* </editor-fold> */
