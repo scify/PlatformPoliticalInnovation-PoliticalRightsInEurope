@@ -267,6 +267,36 @@ body {
     height:750px;
 }
 
+#map .country ul {
+    list-style: outside none none;
+    padding-left: 20px;
+}
+
+#map .country li
+{
+    margin-bottom:10px;
+}
+#map .country p
+{
+    margin:0;
+}
+
+#map .country h2 {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+#map .country h2 span {
+    display: inline-block;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+#map .country hr {
+    margin: 20px;
+    padding: 0;
+}
+
+
 #vis {
 	background-color: white;
 }

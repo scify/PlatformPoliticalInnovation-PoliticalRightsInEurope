@@ -79,7 +79,8 @@ Highcharts.theme = {
     tooltip: {
         borderWidth: 0,
         backgroundColor: 'rgba(219,219,216,0.8)',
-        shadow: false
+        shadow: false,
+        display:'none'
     },
     legend: {
         itemStyle: {
@@ -182,6 +183,7 @@ $(function () {
                 events:{click: displayCountry}
             }],
             joinBy: ['iso-a2', 'code'],
+
             dataLabels: {
                 enabled: true,
                 color: 'black',
@@ -205,10 +207,12 @@ $(function () {
                 }
             },
             tooltip: {
-                enabled: false,
-                headerFormat: '',
-                pointFormat: '{}'
+                enabled: false
             }
-        }]
+        }],
+        tooltip: {
+            enabled: false
+        }
     });
+
 });
