@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6589a06a-f725-4cd9-87bf-c7706fee118e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/index.html" afterPath="$PROJECT_DIR$/html/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="politicalRights.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,8 +44,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2598" max-vertical-offset="3528">
-              <caret line="290" column="1" selection-start-line="290" selection-start-column="1" selection-end-line="290" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2706" max-vertical-offset="3636">
+              <caret line="296" column="0" selection-start-line="296" selection-start-column="0" selection-end-line="296" selection-end-column="0" />
               <folding>
                 <element signature="e#1489#1521#0" expanded="false" />
                 <element signature="e#2082#2116#0" expanded="false" />
@@ -56,16 +57,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6177924" vertical-offset="6843" max-vertical-offset="7830">
-              <caret line="523" column="18" selection-start-line="523" selection-start-column="18" selection-end-line="523" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.32125205" vertical-offset="10695" max-vertical-offset="12438">
+              <caret line="605" column="34" selection-start-line="605" selection-start-column="34" selection-end-line="605" selection-end-column="34" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#a#0;n#li#5;n#ul#0;n#nav#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#7;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -79,6 +74,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -346,12 +342,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#span#0;n#a#0;n#li#5;n#ul#0;n#nav#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#7;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -362,12 +352,6 @@
           <caret line="188" column="26" selection-start-line="188" selection-start-column="24" selection-end-line="188" selection-end-column="24" />
           <folding>
             <element signature="n#style#0;n#span#0;n#a#0;n#li#5;n#ul#0;n#nav#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#7;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -400,12 +384,6 @@
           <caret line="152" column="43" selection-start-line="152" selection-start-column="29" selection-end-line="152" selection-end-column="43" />
           <folding>
             <element signature="n#style#0;n#span#0;n#a#0;n#li#5;n#ul#0;n#nav#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#7;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -449,8 +427,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2598" max-vertical-offset="3528">
-          <caret line="290" column="1" selection-start-line="290" selection-start-column="1" selection-end-line="290" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2706" max-vertical-offset="3636">
+          <caret line="296" column="0" selection-start-line="296" selection-start-column="0" selection-end-line="296" selection-end-column="0" />
           <folding>
             <element signature="e#1489#1521#0" expanded="false" />
             <element signature="e#2082#2116#0" expanded="false" />
@@ -471,16 +449,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6177924" vertical-offset="6843" max-vertical-offset="7830">
-          <caret line="523" column="18" selection-start-line="523" selection-start-column="18" selection-end-line="523" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.32125205" vertical-offset="10695" max-vertical-offset="12438">
+          <caret line="605" column="34" selection-start-line="605" selection-start-column="34" selection-end-line="605" selection-end-column="34" />
           <folding>
             <element signature="n#style#0;n#span#0;n#a#0;n#li#5;n#ul#0;n#nav#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#7;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>
