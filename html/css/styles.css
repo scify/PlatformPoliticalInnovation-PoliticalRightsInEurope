@@ -261,6 +261,7 @@ body {
 
 #map.activated #countries-info
 {
+    border-left:10px solid #fdd017;
     right:0;
     -webkit-transition:all 1s ease;
     -moz-transition:all 1s ease;
