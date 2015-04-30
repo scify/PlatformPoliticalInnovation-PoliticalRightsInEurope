@@ -312,3 +312,11 @@ body {
 
 }
 /* </editor-fold> */
+
+.modalwider {
+    width: 850px;
+}
+.country{
+    padding-left: 15px;
+    padding-right: 15px;
+}
