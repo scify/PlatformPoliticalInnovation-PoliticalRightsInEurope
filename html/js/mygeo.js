@@ -127,17 +127,16 @@ $(function () {
 
     function displayCountry(data)
     {
-
         $("#map").addClass("activated");
         $(".country").hide();
         $("#"+data.point.code).fadeIn();
-        data.point.color="red";
+        data.point.color="yellow";
 
         var map = $('#vis').highcharts(),
             points = map.series[0].points;
         for(var i in points) {
             if (data.point.code == points[i].code)
-                points[i].update({"color":"red"},false);
+                points[i].update({"color":"yellow"},false);
             else
             {
                 points[i].update({"color":null},false);
