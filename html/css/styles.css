@@ -1,5 +1,9 @@
+h1, h2, h3{
+    font-family: Ubuntu;
+}
 body {
     font-size: 15px;
+    font-family: Ubuntu;
 }
 
 .padding-bottom {
@@ -73,7 +77,7 @@ body {
 }
 
 #main-content .highlight {
-    background-color: yellow;
+    background-color: #fdd017;
     padding-bottom: 15px;
     padding-top: 15px;
 }

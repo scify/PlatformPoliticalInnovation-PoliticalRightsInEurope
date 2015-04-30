@@ -131,13 +131,13 @@ $(function () {
         $("#map").addClass("activated");
         $(".country").hide();
         $("#"+data.point.code).fadeIn();
-        data.point.color="yellow";
+        data.point.color="#fdd017";
 
         var map = $('#vis').highcharts(),
             points = map.series[0].points;
         for(var i in points) {
             if (data.point.code == points[i].code)
-                points[i].update({"color":"yellow"},false);
+                points[i].update({"color":"#fdd017"},false);
             else
             {
                 points[i].update({"color":null},false);
