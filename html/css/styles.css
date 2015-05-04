@@ -6,6 +6,13 @@ body {
     font-family: Ubuntu, sans-serif;
 }
 
+h2, .h2 {
+    font-size: 28px;
+}
+
+h3, .h3 {
+    font-size: 23px;
+}
 .padding-bottom {
     padding-bottom: 20px;
 }
@@ -13,6 +20,13 @@ body {
 .padding-top {
     padding-top: 20px;
 }
+
+.highlight h1 {
+    font-size: 32px;
+}
+
+
+
 
 /* <editor-fold descr="main-content"> */
 
@@ -36,25 +50,6 @@ body {
 #main-content .box {
     background-color: white;
     padding: 15px;
-}
-
-#main-content .equal-height {
-    position: relative;
-}
-
-#main-content .equal-height .box {
-    background-color: White;
-    bottom: 0;
-    left: 15px;
-    position: absolute;
-    right: 0px;
-    top: 0;
-}
-
-#main-content .row.fixed-height [class*="col-"] {
-    float: none;
-    display: table-cell;
-    vertical-align: top;
 }
 
 #main-content {
@@ -92,10 +87,8 @@ body {
     padding: 0;
 }
 
-.highlight h1 {
-    font-size: 42px;
-    font-weight: bold;
-}
+
+
 /* </editor-fold> */
 
 /* <editor-fold descr="menu"> */
@@ -262,7 +255,6 @@ body {
 }
 @media (min-width: 1200px) {
 
-
     #map {
         overflow: hidden;
     }
@@ -279,10 +271,7 @@ body {
     }
 
     #map  #countries-info {
-        will-change: auto;ά πρώτον την επιλογή ενός template και στη συνέχεια το σχεδιασμό 3 οθονών με 3 διαφορετικές προτάσεις για να επιλεχθούν εσωτερικά οι 2 και να παρουσιαστούν στο Δήμο.
-Με τον Αλέξανδρο υπολογίσαμε ότι θα χρειαστεί να σχεδιαστούν τελικά γύρω στις 30 οθόνες.
-Δεδομένου ότι τι θέμα είναι λίγο "σπαζοκεφαλιά" και θα χρειαστεί αρκετή έρευνα για να είναι χρηστικός και λειτουργικός ο σχεδιασμός υπολογίσαμε με τη Μαίρη το δικό μας κόστος για αυτό στα €1.400 συν φπα πάντα.
-Ενημέρωσε με αν είστε οκ με αυτό και αν χρειάζ
+        will-change: auto;
         overflow-y: scroll;
         position: absolute;
         right: -600px;
@@ -303,6 +292,28 @@ body {
     {
         height:750px;
     }
+
+    #main-content .equal-height {
+        position: relative;
+        overflow:hidden;
+    }
+
+    #main-content .equal-height .box {
+        background-color: White;
+        bottom: 0;
+        left: 15px;
+        position: absolute;
+        right: 0px;
+        top: 0;
+        height:4000px;
+    }
+
+    #main-content .row.fixed-height [class*="col-"] {
+        float: none;
+        display: table-cell;
+        vertical-align: top;
+    }
+
 
 
 }
