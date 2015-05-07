@@ -25,7 +25,71 @@ h3, .h3 {
     font-size: 32px;
 }
 
+/***contentsMenu****/
+.fixed{
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+.fixed .contentsMenu-inner{
+    max-width: 1080px;
+    margin: 0 auto;;
+}
 
+.contentsMenu-placeholder{
+    margin: 0 0 20px 0;
+}
+
+
+#contentsMenu{
+    top:0;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#contents {
+    background-color: #444444;
+    float: left;
+    width: 100%;
+
+    /*margin-top: 20px;*/
+    /*padding-top: 10px;*/
+    /*padding-right: 95px;*/
+    /*padding-left: 20px;*/
+}
+
+#contents-main-menu{
+    text-align: left;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+#contents li {
+    display: inline-block;
+    border-radius: 10px;
+}
+
+#contents li a {
+    line-height: 50px;
+    padding: 0 10px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+#contents .contents-item {
+    transition: 0.2s ease-in-out;
+}
+
+#contents .contents-item:hover {
+    background-color: #fcac0b;
+}
+
+#contents .contents-item:hover a {
+    color: white;
+    text-decoration: none;
+}
+/*****************/
 
 
 /* <editor-fold descr="main-content"> */
