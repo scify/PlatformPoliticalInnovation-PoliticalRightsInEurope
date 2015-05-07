@@ -61,6 +61,11 @@ h3, .h3 {
     padding: 25px 35px;
 }
 
+#wrapper #contents li
+{
+    border-radius: 0;
+}
+
 #main-content h1, #main-content h2 {
     margin: 0;
     padding: 0;
