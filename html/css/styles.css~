@@ -96,15 +96,6 @@ h3, .h3 {
 
 /* <editor-fold descr="main-content"> */
 
-#header{
-    background-image: url("../res/PPI-background-brighter.png");
-}
-
-#chat{
-    background-image: url("../res/PPI-background-brighter.png");
-    background-size: 1140px 267px;
-    background-repeat:space;
-}
 
 #main-content  .highlight.blue
 {
@@ -173,7 +164,7 @@ h3, .h3 {
 
 /* <editor-fold descr="menu"> */
 #header {
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 #menu {
@@ -307,8 +298,8 @@ h3, .h3 {
 }
 
 #chat {
-    margin-top: 15px;
-    margin-bottom: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 #cube, #exclamation{
