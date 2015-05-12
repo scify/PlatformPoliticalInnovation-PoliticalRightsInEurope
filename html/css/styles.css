@@ -1,3 +1,4 @@
+
 h1, h2, h3{
     font-family: Ubuntu, sans-serif;
 }
@@ -13,6 +14,14 @@ h2, .h2 {
 h3, .h3 {
     font-size: 23px;
 }
+
+a, a:active, a:focus {
+    outline: none;
+}
+
+.no-outline{
+    outline: 0;
+}
 .padding-bottom {
     padding-bottom: 20px;
 }
@@ -23,6 +32,18 @@ h3, .h3 {
 
 .highlight h1 {
     font-size: 32px;
+}
+
+.margin-top-10{
+    margin-top: 10px;
+}
+
+.margin-top-60{
+    margin-top: 60px;
+}
+
+.no-border{
+    border: none;
 }
 
 /***contentsMenu****/
@@ -52,14 +73,21 @@ h3, .h3 {
     background-color: #444444;
     float: left;
     width: 100%;
-    border-radius: 7px;
 }
 .contents-item{
     border-right: 1px solid #ffffff;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
 }
-.no_border{
+.no_border_right{
     border-right: none;
 }
+
+.no-radius{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
 #contents-main-menu{
     text-align: left;
     margin-bottom: 0px;
@@ -96,15 +124,15 @@ h3, .h3 {
 
 /* <editor-fold descr="main-content"> */
 
-#header{
-    background-image: url("../res/PPI-background-brighter.png");
-}
+/*#header{*/
+    /*background-image: url("../res/PPI-background-brighter.png");*/
+/*}*/
 
-#chat{
-    background-image: url("../res/PPI-background-brighter.png");
-    background-size: 1140px 267px;
-    background-repeat:space;
-}
+/*#chat{*/
+    /*background-image: url("../res/PPI-background-brighter.png");*/
+    /*background-size: 1140px 267px;*/
+    /*background-repeat:space;*/
+/*}*/
 
 #main-content  .highlight.blue
 {
