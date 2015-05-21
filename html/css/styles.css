@@ -3,7 +3,7 @@ h1, h2, h3{
     font-family: Ubuntu, sans-serif;
 }
 body {
-    font-size: 15px;
+    font-size: 16px;
     font-family: Ubuntu, sans-serif;
 }
 
@@ -38,8 +38,8 @@ a, a:active, a:focus {
     margin-top: 10px;
 }
 
-.margin-top-60{
-    margin-top: 60px;
+.margin-top-80{
+    margin-top: 80px;
 }
 
 .no-border{
@@ -234,15 +234,19 @@ a, a:active, a:focus {
     text-decoration: none;
 }
 
-#donate {
+#politeia2 {
 
     background-color: #ffae19;
 }
 
-#donate:hover a {
+#politeia2:hover a {
     text-decoration: none;
 }
 /* </editor-fold> */
+
+#logo{
+    padding-top: 5px;
+}
 
 /* <editor-fold descr="footer"> */
 #footer h2 {
