@@ -3,16 +3,16 @@ h1, h2, h3{
     font-family: Ubuntu, sans-serif;
 }
 body {
-    font-size: 16px;
+    font-size: 14px;
     font-family: Ubuntu, sans-serif;
 }
 
 h2, .h2 {
-    font-size: 28px;
+    font-size: 24px;
 }
 
 h3, .h3 {
-    font-size: 23px;
+    font-size: 19px;
 }
 
 a, a:active, a:focus {
@@ -31,7 +31,7 @@ a, a:active, a:focus {
 }
 
 .highlight h1 {
-    font-size: 32px;
+    font-size: 24px;
 }
 
 .margin-top-10{
@@ -101,7 +101,7 @@ a, a:active, a:focus {
 }
 
 #contents li a {
-    line-height: 50px;
+    line-height: 25px;
     padding: 0 10px;
     font-size: 16px;
     color: #ffffff;
@@ -147,7 +147,7 @@ a, a:active, a:focus {
 
 
 #main-content.container, #main-content .row {
-    background-color: #e1eae7;
+    background-color: #F2F2F2;
 }
 
 #main-content .box {
@@ -186,8 +186,8 @@ a, a:active, a:focus {
 }
 
 #main-content .title.highlight {
-    padding-bottom: 24px;
-    padding-top: 24px;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 #main-content h1, #main-content h2, #main-content h3, #main-content h4 {
